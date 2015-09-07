@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'League Spartan';
+  src: url('../fonts/leaguespartan-bold.woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: #fff;
+  background-image: url(https://38.media.tumblr.com/13f952f23f01ca8f2d95c16943334d1a/tumblr_nu13uaPSDe1sum4zao1_500.gif);
+  padding: 0;
+  margin: 0;
+  font-family: 'League Spartan';
+  border-left: 20px solid #ccff00;
+}
+
+h1, h2 {
+  display: inline-block;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 0.1rem;
+  color: #111;
+  margin: 15px 0 0 15px;
+  float: right;
+}
+
+.video {
+  width: 300px;
+  height: 150px;
+  margin: 5px;
+  position: relative;
+  float: left;
+}
+
+iframe {
+  opacity: 0.6;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+iframe:hover {
+  opacity: 1.0;
+}
